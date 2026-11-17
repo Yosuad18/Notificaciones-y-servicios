@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/btnIniciarContador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="Servicio Contador" />
+
+        <Button
+            android:id="@+id/btnIniciarOperacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="Calcular Factorial (5)" />
+
+        <Button
+            android:id="@+id/btnIniciarDescarga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="Simular Descarga" />
+
+        <!-- Ejercicio 4 -->
+        <EditText
+            android:id="@+id/etNumero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:hint="Ingrese un número para calcular su cuadrado"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/btnCalcularCuadrado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calcular Cuadrado" />
+
+        <!-- Ejercicio 5-->
+        <Button
+            android:id="@+id/btnCrearNotificacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mostrar Notificacion con botones"/>
+    </LinearLayout>
+</ScrollView>
